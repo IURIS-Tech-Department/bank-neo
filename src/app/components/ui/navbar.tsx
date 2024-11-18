@@ -39,10 +39,10 @@ const DekstopVersion = ({ links, pathname }: NavbarType) => {
         })}
       </div>
       <Link
-        href="/login"
+        href="/"
         className="bg-grey uppercase text-dark rounded-full py-4 px-6 hover:brightness-90 transition-all"
       >
-        Login
+        Open Account
       </Link>
     </>
   );
@@ -154,10 +154,10 @@ function Navbar() {
             </div>
             <div className="w-full text-center p-6 transition-all">
               <Link
-                href="/login"
+                href="/"
                 className="bg-white uppercase text-dark rounded-md hover:brightness-90 transition-all font-h5 flex items-center justify-center h-12 border border-white"
               >
-                Login
+                Open Account
               </Link>
             </div>
           </>
