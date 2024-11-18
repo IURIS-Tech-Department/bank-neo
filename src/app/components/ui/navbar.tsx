@@ -40,7 +40,7 @@ const DekstopVersion = ({ links, pathname }: NavbarType) => {
       </div>
       <Link
         href="/"
-        className="bg-grey uppercase text-dark rounded-full py-4 px-6 hover:brightness-90 transition-all"
+        className="bg-red uppercase text-dark rounded-full py-4 px-6 hover:brightness-90 transition-all"
       >
         Open Account
       </Link>

@@ -24,7 +24,15 @@ const MainHome: React.FC = () => {
         {/* edit */}
         <Button
           variant="outlined"
-          className="text-white border-white mt-6 py-2 px-8"
+          sx={{
+            borderColor: 'white',
+            color: 'white',
+            marginTop: '32px', 
+            '&:hover': {
+              borderColor: 'white',
+              backgroundColor: 'rgba(255, 255, 255, 0.1)', 
+            },
+          }}
         >
           COMING SOON
         </Button>
