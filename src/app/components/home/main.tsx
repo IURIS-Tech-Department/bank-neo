@@ -21,6 +21,7 @@ const MainHome: React.FC = () => {
         <Typography className="mt-4 italic text-white text-base">
           Of one’s own right, in a fiduciary world
         </Typography>
+        {/* edit */}
         <Button
           variant="outlined"
           className="text-white border-white mt-6 py-2 px-8"
