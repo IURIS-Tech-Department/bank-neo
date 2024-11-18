@@ -186,12 +186,12 @@ function Footer() {
           </p>
           <Link
             target="_blank"
-            href="https://www.loker.id/profile/pt-iuris-international-indonesia"
+            href="https://iurisinternational.xyz"
             className="text-lg"
           >
             Consulting Firm
           </Link>
-          <Link href="https://iuris.world" className="text-lg">
+          <Link href="https://iurislaw.co" className="text-lg">
             US Law Firm
           </Link>
         </div>
