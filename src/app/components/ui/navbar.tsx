@@ -40,8 +40,8 @@ const DekstopVersion = ({ links, pathname }: NavbarType) => {
       </div>
       <Link
         href="/"
-        className="bg-red uppercase text-dark rounded-full py-4 px-6 hover:brightness-90 transition-all"
-      >
+        className="bg-white text-black p-3 rounded-xl hover:brightness-90 transition-all font-h5 flex items-center justify-center h-12"
+        >
         Open Account
       </Link>
     </>
@@ -58,11 +58,9 @@ function Navbar() {
   };
   const links = [
     { name: "home", path: "/" },
-    { name: "services", path: "/" },
-    { name: "lending", path: "/" },
-    { name: "investment", path: "/" },
-    { name: "support", path: "/" },
-    { name: "about us", path: "/" },
+    { name: "services", path: "/services" },
+    { name: "support", path: "/support" },
+    { name: "about us", path: "/about-us" },
   ];
 
   const menuRef = useRef<HTMLDivElement>(null);
@@ -107,14 +105,9 @@ function Navbar() {
         }`}
       >
         <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
-          <Image
-            className="w-32 h-14 object-contain"
-            alt="IURIS International Indonesia"
-            src="/img/logo.webp"
-            width={252}
-            height={110}
-          />
-
+          <div className="w-32 h-14 flex items-center justify-center text-center text-2xl border-l-2 border-white">
+            BankNeo
+          </div>
           {isMounted &&
             (isLargeScreen ? (
               <DekstopVersion pathname={pathname} links={links} />
@@ -155,7 +148,7 @@ function Navbar() {
             <div className="w-full text-center p-6 transition-all">
               <Link
                 href="/"
-                className="bg-white uppercase text-dark rounded-md hover:brightness-90 transition-all font-h5 flex items-center justify-center h-12 border border-white"
+                className="bg-white text-black p-3 rounded-xl hover:brightness-90 transition-all font-h5 flex items-center justify-center h-12"
               >
                 Open Account
               </Link>

@@ -5,21 +5,21 @@ const MainHome: React.FC = () => {
   return (
     <div
       className="relative flex flex-col justify-center items-center text-center bg-cover bg-center min-h-screen p-8"
-      style={{ backgroundImage: 'url("/img/banner.webp")' }}
+      style={{ backgroundImage: 'url("/img/bg-finance.jpg")' }}
     >
       {/* Overlay dengan opacity gelap */}
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 z-1"></div>
       
       {/* Teks utama */}
       <div className="relative z-2">
+        <Typography variant="h2" className="font-bold text-white">
+          Banking
+        </Typography>
         <Typography variant="h2" className="font-bold mb-4 text-white">
-          IURIS -
+          Outside The Matrix
         </Typography>
-        <Typography variant="h5" className="text-white">
-          Trust, Wealth Management, and Private Banking
-        </Typography>
-        <Typography className="mt-4 italic text-white text-base">
-          Of one’s own right, in a fiduciary world
+        <Typography className="mt-4 text-white text-base">
+          Apply in 10 minutes for bussines banking that transform how operate
         </Typography>
         {/* edit */}
         <Button
@@ -34,7 +34,7 @@ const MainHome: React.FC = () => {
             },
           }}
         >
-          COMING SOON
+          Open Account
         </Button>
       </div>
     </div>

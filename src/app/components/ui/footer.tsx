@@ -44,13 +44,9 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <Image
-            className="w-32 h-14 object-contain"
-            alt="IURIS International Indonesia"
-            src="/img/logo.webp"
-            width={252}
-            height={110}
-          />
+          <div className="w-32 h-14 flex items-center justify-center text-center text-2xl border-l-2 border-white">
+            BankNeo
+          </div>
           <div className="flex gap-4 text-2xl">
             <Link
               target="_blank"
@@ -173,9 +169,9 @@ function Footer() {
             </Link>
           </div>
           <p className="text-sm lg:text-base">
-            ©2024 IURIS LLC. PT IURIS INTERNATIONAL INDONESIA.
+            ©2024 BankNeo. PT Bank Neo.
             <br />
-            PTY IURIS. All rights reserved.
+            PTY BankNeo. All rights reserved.
           </p>
         </div>
       </div>
@@ -186,13 +182,13 @@ function Footer() {
           </p>
           <Link
             target="_blank"
-            href="https://iurisinternational.xyz"
+            href="/about-us"
             className="text-lg"
           >
-            Consulting Firm
+            About Us
           </Link>
-          <Link href="https://iurislaw.co" className="text-lg">
-            US Law Firm
+          <Link href="/carrers" className="text-lg">
+            Carrers
           </Link>
         </div>
         <div className="flex w-1/3 md:w-full flex-col gap-4">
@@ -202,23 +198,33 @@ function Footer() {
           <Link href="/" className="text-lg">
             Home
           </Link>
-          <Link href="/" className="text-lg">
+          <Link href="/services" className="text-lg">
             Services
           </Link>
-          <Link href="/" className="text-lg">
-            Lending
-          </Link>
-          <Link href="/" className="text-lg">
-            Investment
-          </Link>
-          <Link href="/" className="text-lg">
+          <Link href="/support" className="text-lg">
             Support
           </Link>
-          <Link href="/" className="text-lg">
+          <Link href="/about-us" className="text-lg">
             About Us
           </Link>
         </div>
-       
+        <div className="flex w-1/3 md:w-full flex-col gap-4">
+          <p className="text-xl lg:text-2xl mb-4">
+            <b>Terms & Conditions</b>
+          </p>
+          <Link href="/" className="text-lg">
+            Disclaimer
+          </Link>
+          <Link href="/services" className="text-lg">
+            Privacy Policy
+          </Link>
+          <Link href="/support" className="text-lg">
+            Support
+          </Link>
+          <Link href="/about-us" className="text-lg">
+            Cookies Policy
+          </Link>
+        </div>
       </div>
     </footer>
   );
