@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Button } from "@mui/material";
+import { Typography } from "@mui/material";
 
 const SectionDedicated: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ const SectionDedicated: React.FC = () => {
           </Typography>
           <Typography className="mt-4 text-white text-base">
             BankNeo Delivers Value  to our clients by offering comprehensive accounting and strategic finance <br />
-            services. Attivo's management reports  deliver candid and actionable insights all focused on your <br />
+            services. Attivos management reports  deliver candid and actionable insights all focused on your <br />
             business growth and success.
           </Typography>
           {/* edit */}

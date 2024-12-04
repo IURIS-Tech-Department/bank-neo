@@ -11,7 +11,7 @@ const FAQ: React.FC = () => {
           <div>
             <h3 className="text-xl font-semibold">How do I reset my password?</h3>
             <p className="text-gray-300">
-              To reset your password, go to the login page and click on "Forgot Password". You will be guided through the process to reset your password via email.
+              To reset your password, go to the login page and click on Forgot Password. You will be guided through the process to reset your password via email.
             </p>
           </div>
           <div>

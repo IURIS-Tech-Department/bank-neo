@@ -1,6 +1,5 @@
 import Globals from "./components/home/global";
 import MainHome from "./components/home/main";
-import OurPartner from "./components/home/partner";
 import SectionDedicated from "./components/home/section-dedicated";
 import CoreBankingServices from "./components/service/CoreBankingServices";
 import InnovativeServices from "./components/service/InnovativeServices";
