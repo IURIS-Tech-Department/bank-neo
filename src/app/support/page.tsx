@@ -7,7 +7,7 @@ import SupportContactInfo from "../components/support/SupportContactInfo";
 
 const SupportPage: React.FC = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-gray-200 text-black">
       <AboutSupport />
       <FAQ />
       <ContactForm />

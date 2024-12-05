@@ -1,4 +1,3 @@
-import Globals from "./components/home/global";
 import MainHome from "./components/home/main";
 import SectionDedicated from "./components/home/section-dedicated";
 import CoreBankingServices from "./components/service/CoreBankingServices";
@@ -11,9 +10,8 @@ import SpesializeServices from "./components/service/SpesializeServices";
 
 export default function Home() {
   return (
-    <section className="bg-black">
+    <section className="bg-gray-200">
       <MainHome />
-      <Globals />
       <SectionService />
       <SectionDedicated />
       <CoreBankingServices />

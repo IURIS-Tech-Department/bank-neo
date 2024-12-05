@@ -1,5 +1,6 @@
 import React from "react";
 import { Typography } from "@mui/material";
+import TechnologyPartners from "./technology-partners";
 
 const SectionDedicated: React.FC = () => {
   return (
@@ -24,17 +25,18 @@ const SectionDedicated: React.FC = () => {
           </Typography>
           <Typography className="mt-4 text-white text-base">
             BankNeo Delivers Value  to our clients by offering comprehensive accounting and strategic finance <br />
-            services. Attivos management reports  deliver candid and actionable insights all focused on your <br />
+            services. Attivo&apos;s management reports  deliver candid and actionable insights all focused on your <br />
             business growth and success.
           </Typography>
           {/* edit */}
         </div>
         
       </div>
+      <TechnologyPartners />
       <div className="text-center mt-20">
-        <h2 className="relative text-2xl w-full p-4 md:text-3xl font-bold text-center text-white">
+        <h2 className="relative text-2xl w-full p-4 md:text-3xl font-bold text-center text-black">
           Our Services
-          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 block w-40 border-b-4 border-white"></span>
+          <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 block w-40 border-b-4 border-black"></span>
         </h2>
       </div>
     </>

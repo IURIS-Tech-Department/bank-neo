@@ -4,10 +4,10 @@ const SupportContactInfo: React.FC = () => {
   return (
     <section className="py-16">
       <div className="max-w-6xl mx-auto px-6 md:px-12 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-black">
           Support Contact Information
         </h2>
-        <p className="text-gray-300 mb-4">
+        <p className="text-black mb-4">
           If you need immediate assistance, feel free to contact us directly.
         </p>
         <div className="space-y-4">
@@ -16,7 +16,7 @@ const SupportContactInfo: React.FC = () => {
             support@yourcompany.com
           </a>
           <div className="text-xl font-semibold">Phone:</div>
-          <p className="text-gray-300">+1 (800) 123-4567</p>
+          <p className="text-black">+1 (800) 123-4567</p>
         </div>
       </div>
     </section>

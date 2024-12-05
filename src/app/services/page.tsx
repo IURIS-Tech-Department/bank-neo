@@ -8,7 +8,7 @@ import SpesializeServices from "../components/service/SpesializeServices";
 
 export default function Services() {
   return (
-    <section className="bg-black">
+    <section className="bg-gray-200">
       <CoreBankingServices />
       <SpesializeServices />
       <PrivateServices />

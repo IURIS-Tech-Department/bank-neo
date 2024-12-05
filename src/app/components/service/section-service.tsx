@@ -14,7 +14,7 @@ const Card: React.FC<CardProps> = ({ title, description, buttonText, imageSrc })
         <img
           src={imageSrc}
           alt={title} 
-          className="w-full h-auto object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
+          className="w-full p-5 h-auto object-cover rounded-t-xl hover:scale-105 transition-transform duration-300 ease-in-out"
         />
       </div>
       <h3 className="text-lg font-semibold text-center text-black">{title}</h3>
@@ -28,8 +28,8 @@ const Card: React.FC<CardProps> = ({ title, description, buttonText, imageSrc })
 
 const SectionService: React.FC = () => {
   return (
-    <section className="py-16 px-4 bg-black">
-      <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-white">
+    <section className="py-16 px-20">
+      <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-black">
         Manage your banking and financial operations from a single dashboard
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

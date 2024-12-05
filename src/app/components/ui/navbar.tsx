@@ -14,7 +14,7 @@ interface NavbarType {
 const DekstopVersion = ({ links, pathname }: NavbarType) => {
   return (
     <>
-      <div className="flex justify-evenly gap-2 text-center border border-white rounded-full px-4 py-2 text-base">
+      <div className="flex justify-evenly gap-2 text-center border border-black rounded-full px-4 py-2 text-base">
         {links?.map((item, idx) => {
           const isActive =
             (item.path.startsWith("/services") &&
@@ -24,13 +24,13 @@ const DekstopVersion = ({ links, pathname }: NavbarType) => {
             pathname === item.path;
 
           const activeClass = isActive
-            ? "relative pl-6 bg-grey before:content-[''] before:block before:w-3 before:h-3 before:rounded-full before:bg-white before:absolute before:left-2 before:top-1/2 before:-translate-y-1/2"
+            ? "relative pl-6 bg-grey before:content-[''] before:block before:w-3 before:h-3 before:rounded-full before:bg-black before:absolute before:left-2 before:top-1/2 before:-translate-y-1/2"
             : "";
 
           return (
             <Link
               key={idx}
-              className={`transition-all uppercase rounded-full duration-300 py-2 px-4 hover:bg-grey ${activeClass} text-white`}
+              className={`transition-all uppercase rounded-full duration-300 py-2 px-4 hover:bg-grey ${activeClass} text-black`}
               href={item?.path}
             >
               {item.name}
@@ -40,7 +40,7 @@ const DekstopVersion = ({ links, pathname }: NavbarType) => {
       </div>
       <Link
         href="/"
-        className="bg-white text-black p-3 rounded-xl hover:brightness-90 transition-all font-h5 flex items-center justify-center h-12"
+        className="text-black p-3 rounded-xl hover:brightness-90 transition-all font-h5 flex items-center justify-center h-12"
         >
         Open Account
       </Link>
@@ -86,27 +86,29 @@ function Navbar() {
   const navBackgroundStyle = isLargeScreen
     ? {
         boxShadow: "2px 0px 5px rgb(0 0 0 / 0.4)",
-        backgroundColor: "rgb(0 0 0 / 0.6)",
+        backgroundColor: "rgb(255 255 255)",
       }
     : {
         boxShadow: "2px 0px 5px rgb(0 0 0 / 0.4)",
-        backgroundColor: "rgb(0 0 0)",
+        backgroundColor: "rgb(255 255 255, 0.5)", 
       };
 
   return (
     <nav
-      className="w-full sticky top-0 p-2 sm:p-6 z-50 backdrop-blur-md mx-auto text-white"
+      className="w-full sticky top-0 p-2 sm:p-6 z-50 backdrop-blur-md mx-auto text-black"
       style={navBackgroundStyle}
     >
       <div
         ref={menuRef}
         className={`flex flex-col w-full items-center justify-between ${
-          click ? "border border-white rounded-lg" : "border border-transparent"
+          click ? "border border-black rounded-lg" : "border border-transparent"
         }`}
       >
         <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
-          <div className="w-32 h-14 flex items-center justify-center text-center text-2xl border-l-2 border-white">
-            BankNeo
+          <div className="w-30 h-10 flex items-center justify-center text-center text-2xl border-l-4 border-black">
+           <div className="p-3 font-bold">
+              Neo
+           </div>
           </div>
           {isMounted &&
             (isLargeScreen ? (
@@ -133,7 +135,7 @@ function Navbar() {
         </div>
         {!isLargeScreen && click && (
           <>
-            <div className="flex flex-col py-4 px-6 justify-center w-full border-t border-t-white border-b border-b-white transition-all">
+            <div className="flex flex-col py-4 px-6 justify-center w-full border-t border-t-black border-b border-b-black transition-all">
               {links.map((val, idx) => (
                 <Link
                   href={val?.path}
@@ -148,7 +150,7 @@ function Navbar() {
             <div className="w-full text-center p-6 transition-all">
               <Link
                 href="/"
-                className="bg-white text-black p-3 rounded-xl hover:brightness-90 transition-all font-h5 flex items-center justify-center h-12"
+                className="text-black p-3 rounded-xl hover:brightness-90 transition-all font-h5 flex items-center justify-center h-12"
               >
                 Open Account
               </Link>

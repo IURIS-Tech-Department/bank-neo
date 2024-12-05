@@ -7,7 +7,7 @@ function Footer() {
     <footer
       className={
         
-        " px-4 pt-10 pb-16 md:py-8 md:px-24 flex flex-col md:flex-row justify-between gap-12 md:gap-36 bg-black text-white border-t border-white"
+        " px-4 pt-10 pb-16 md:py-8 md:px-24 flex flex-col md:flex-row justify-between gap-12 md:gap-36 bg-white text-black border-t border-black"
       }
     >
       <div className="flex  gap-8 w-full md:w-1/3 flex-col-reverse">
@@ -31,20 +31,23 @@ function Footer() {
               type="email"
               name="email"
               id="email-subscribe"
-              placeholder="example@email.com"
+              placeholder=" example@email.com "
+              className=" border border-black mr-5"
               
             />
             <button
               type="button"
-              className="p-2 border border-white transition-colors hover:bg-grey"
+              className="p-2 border border-black transition-colors hover:bg-grey"
             >
               Submit
             </button>
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <div className="w-32 h-14 flex items-center justify-center text-center text-2xl border-l-2 border-white">
-            BankNeo
+          <div className="w-14 h-10 flex items-center justify-center text-center text-2xl border-l-4 border-black">
+            <div className="ml-5 font-bold">
+              Neo
+            </div>
           </div>
           <div className="flex gap-4 text-2xl">
             <Link
@@ -168,9 +171,9 @@ function Footer() {
             </Link>
           </div>
           <p className="text-sm lg:text-base">
-            ©2024 BankNeo. PT Bank Neo.
+            ©2024 Iuris. PT Iuris International.
             <br />
-            PTY BankNeo. All rights reserved.
+            PTY Iuris. All rights reserved.
           </p>
         </div>
       </div>
