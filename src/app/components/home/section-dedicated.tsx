@@ -19,12 +19,12 @@ const SectionDedicated: React.FC = () => {
           <Typography variant="h2" className="font-bold mb-4 text-black">
             and acounting team.
           </Typography>
-          <Typography variant="h2" className="font-medium mb-4 text-gray-400">
+          <Typography variant="h2" className="font-medium mb-4 text-gray-500">
             Earning your trust everyday.
           </Typography>
-          <Typography className="mt-4 text-gray-400 text-base">
+          <Typography className="mt-4 text-gray-500 text-base">
             BankNeo Delivers Value  to our clients by offering comprehensive accounting and strategic finance <br />
-            services. Attivo&apos;s management reports  deliver candid and actionable insights all focused on your <br />
+            services. <span className="font-bold">Neo</span> management reports  deliver candid and actionable insights all focused on your <br />
             business growth and success.
           </Typography>
           {/* edit */}

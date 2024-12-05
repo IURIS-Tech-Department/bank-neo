@@ -95,7 +95,7 @@ function Navbar() {
 
   return (
     <nav
-      className="w-full sticky top-0 p-2 sm:p-6 z-50 backdrop-blur-md mx-auto text-black"
+      className="w-full sticky top-0 p-2 sm:p-6 bg-white z-50 backdrop-blur-md mx-auto text-black"
       style={navBackgroundStyle}
     >
       <div

@@ -8,8 +8,10 @@ const TechnologyPartners: React.FC = () => {
           Technology and Service Partners
         </h2>
         <p className="text-gray-600 leading-relaxed">
-          At XYZ Solutions, we partner with leading providers to customize and enhance our accounting operations. 
-          Our clients benefit from our preferred partner discounts and from the speed and efficiency of trusted point solutions.
+          neo partners are marke leading solutions that automate
+          and extend our accounting operations. Our clients benefit 
+          from our  preferred partner discounts and from the speed and
+          effeciency of trusted point solutions
         </p>
       </div>
     </section>

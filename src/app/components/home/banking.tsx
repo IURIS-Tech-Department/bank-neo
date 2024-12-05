@@ -20,7 +20,7 @@ const Banking: React.FC = () => {
           Outside The Matrix
         </Typography>
         <Typography className="mt-4 text-black text-base">
-          Apply in 10 minutes for bussines banking that transform how operate
+          Apply in 10 minutes for business banking that transform how operate
         </Typography>
         {/* edit */}
         <Button
