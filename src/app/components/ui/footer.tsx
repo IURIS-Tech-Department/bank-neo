@@ -24,7 +24,7 @@ function Footer() {
             <span className='inline-block w-4 h-4 bg-contain bg-no-repeat bg-[url("/img/arrow-right.svg")]'></span>
           </Link>
         </div>
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <p>Subscribe to our newsletter</p>
           <div className="inline-flex">
             <input
@@ -42,14 +42,14 @@ function Footer() {
               Submit
             </button>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col gap-4">
           <div className="w-14 h-10 flex items-center justify-center text-center text-2xl border-l-4 border-black">
             <div className="ml-5 font-bold">
               Neo
             </div>
           </div>
-          <div className="flex gap-4 text-2xl">
+          {/* <div className="flex gap-4 text-2xl">
             <Link
               target="_blank"
               href="https://id.linkedin.com/in/iuris-international-7151722a8"
@@ -169,11 +169,10 @@ function Footer() {
                 <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"></path>
               </svg>
             </Link>
-          </div>
+          </div> */}
           <p className="text-sm lg:text-base">
-            ©2024 Iuris. PT Iuris International.
+            @2024 Neobank IC. All rights reserved.
             <br />
-            PTY Iuris. All rights reserved.
           </p>
         </div>
       </div>
@@ -190,7 +189,7 @@ function Footer() {
             About Us
           </Link>
           <Link href="/carrers" className="text-lg">
-            Carrers
+            Careers
           </Link>
         </div>
         <div className="flex w-1/3 md:w-full flex-col gap-4">
@@ -219,9 +218,6 @@ function Footer() {
           </Link>
           <Link href="/services" className="text-lg">
             Privacy Policy
-          </Link>
-          <Link href="/support" className="text-lg">
-            Support
           </Link>
           <Link href="/about-us" className="text-lg">
             Cookies Policy

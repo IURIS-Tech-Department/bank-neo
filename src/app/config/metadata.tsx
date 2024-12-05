@@ -1,9 +1,9 @@
 export const metadata = {
-    title: "BankNeo",
+    title: "Neo",
     description:
       "Platform that uses human and AI consultants to help you with any consultation task quickly.",
     openGraph: {
-      title: "BankNeo",
+      title: "Neo",
       description:
         "Platform that uses human and AI consultants to help you with any consultation task quickly.",
       images: [
@@ -11,7 +11,7 @@ export const metadata = {
           url: "/android-chrome-192x192.png",
           width: 192,
           height: 192,
-          alt: "BankNeo",
+          alt: "Neo",
         },
       ],
     },
