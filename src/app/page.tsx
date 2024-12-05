@@ -1,4 +1,5 @@
-import MainHome from "./components/home/main";
+import Banking from "./components/home/banking";
+// import MainHome from "./components/home/main";
 import SectionDedicated from "./components/home/section-dedicated";
 import CoreBankingServices from "./components/service/CoreBankingServices";
 import InnovativeServices from "./components/service/InnovativeServices";
@@ -11,7 +12,8 @@ import SpesializeServices from "./components/service/SpesializeServices";
 export default function Home() {
   return (
     <section className="bg-gray-200">
-      <MainHome />
+      {/* <MainHome /> */}
+      <Banking />
       <SectionService />
       <SectionDedicated />
       <CoreBankingServices />
