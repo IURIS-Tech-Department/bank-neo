@@ -33,29 +33,26 @@ const PremiumService: React.FC = () => {
         <ServiceSection
           title="Corporate Treasury Management"
           services={[
-            "Digital checking and savings accounts",
-            "No/low-fee banking options",
-            "Peer-to-peer (P2P) transfers",
-            "Round-up savings programs",
-            "Personal budgeting and financial tools",
+            "Cash flow management and liquidity planning",
+            "Treasury and cash management solutions",
+            "Integration with ERP systems",
+          
           ]}
         />
         <ServiceSection
           title="Mergers & Acquisitions Advisory"
           services={[
-            "Term loans for capital investments",
-            "Lines of credit for operational expenses",
-            "Mortgage-backed securities (MBS)",
-            "Flexible personal and business loan structures",
+            "Financial preparation for mergers and acquisitions",
+            "Deal negotiation and structuring",
+            "Post-transaction integration strategies",
           ]}
         />
         <ServiceSection
           title="Capital Market Solutions"
           services={[
-            "Online payment gateway services",
-            "Cross-border payments (freelancer and SME-focused)",
-            "International remittances",
-            "ACH and wire transfer services",
+            "IPO preparation and readiness",
+            "Debt and equity financing for enterprises",
+            "Corporate restructuring services",
           ]}
         />
       </div>
@@ -63,19 +60,17 @@ const PremiumService: React.FC = () => {
         <ServiceSection
           title="Custom Financing Structures"
           services={[
-            "Mobile app banking experience",
-            "Crypto wallet integration",
-            "Open banking API solutions",
-            "Real-time account updates and alerts",
+            "Project-based funding solutions",
+            "Non-traditional credit assessment models",
+            "Flexible repayment terms tailored to business needs",
           ]}
         />
         <ServiceSection
           title="Risk Management & Hedging"
           services={[
-            "Digital wallets for users and businesses",
-            "QR code payments",
-            "Subscription and recurring payment management",
-            "Integration with popular e-commerce platforms",
+            "Advanced benchmarking tools",
+            "Financial risk assessment and scenario modeling",
+            "Strategies to mitigate exposure in volatile markets",
           ]}
         />
       </div>

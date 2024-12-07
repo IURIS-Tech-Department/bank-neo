@@ -33,29 +33,26 @@ const PrivateServices: React.FC = () => {
         <ServiceSection
           title="Wealth Management Solutions"
           services={[
-            "Digital checking and savings accounts",
-            "No/low-fee banking options",
-            "Peer-to-peer (P2P) transfers",
-            "Round-up savings programs",
-            "Personal budgeting and financial tools",
+            "Personalized financial planning",
+            "Tax-efficient investment strategies",
+            "High-net-worth individual (HNWI) portfolio management",
+            "Risk profiling and asset rebalancing",
           ]}
         />
         <ServiceSection
           title="Personalized Asset Management"
           services={[
-            "Term loans for capital investments",
-            "Lines of credit for operational expenses",
-            "Mortgage-backed securities (MBS)",
-            "Flexible personal and business loan structures",
+            "Portfolio diversification and optimization",
+            "ETF, mutual fund, and alternative investment options",
+            "Exclusive investment opportunities",
           ]}
         />
         <ServiceSection
           title="Family Office Services"
           services={[
-            "Online payment gateway services",
-            "Cross-border payments (freelancer and SME-focused)",
-            "International remittances",
-            "ACH and wire transfer services",
+            "Retirement and estate planning services",
+            "Private equity and venture capital advisory",
+            "Philanthropic investment strategies",
           ]}
         />
       </div>
@@ -63,19 +60,18 @@ const PrivateServices: React.FC = () => {
         <ServiceSection
           title="Private Banking & Advisory"
           services={[
-            "Mobile app banking experience",
-            "Crypto wallet integration",
-            "Open banking API solutions",
-            "Real-time account updates and alerts",
+            "Tailored credit and lending products",
+            "Specialized advisory for personal financial goals",
+            "Multi-currency account management",
           ]}
         />
         <ServiceSection
           title="Global Investment Portfolios"
           services={[
-            "Digital wallets for users and businesses",
-            "QR code payments",
-            "Subscription and recurring payment management",
-            "Integration with popular e-commerce platforms",
+            "International market investment strategies",
+            "Cross-border wealth preservation",
+            "SCurrency hedging and risk management",
+            "Premium Services for Enterprises",
           ]}
         />
       </div>

@@ -1,12 +1,13 @@
 import Banking from "./components/home/banking";
 // import MainHome from "./components/home/main";
 import SectionDedicated from "./components/home/section-dedicated";
-import CoreBankingServices from "./components/service/CoreBankingServices";
-import InnovativeServices from "./components/service/InnovativeServices";
-import PremiumService from "./components/service/PremiumService";
-import PrivateServices from "./components/service/PrivateServices";
+import Tabs from "./components/home/tabs";
+// import CoreBankingServices from "./components/service/CoreBankingServices";
+// import InnovativeServices from "./components/service/InnovativeServices";
+// import PremiumService from "./components/service/PremiumService";
+// import PrivateServices from "./components/service/PrivateServices";
 import SectionService from "./components/service/section-service";
-import SpesializeServices from "./components/service/SpesializeServices";
+// import SpesializeServices from "./components/service/SpesializeServices";
 
 
 export default function Home() {
@@ -16,11 +17,12 @@ export default function Home() {
       <Banking />
       <SectionService />
       <SectionDedicated />
-      <CoreBankingServices />
+      <Tabs />
+      {/* <CoreBankingServices />
       <SpesializeServices />
       <PrivateServices />
       <PremiumService />
-      <InnovativeServices />
+      <InnovativeServices /> */}
       {/* <OurPartner /> */}
       
     </section>

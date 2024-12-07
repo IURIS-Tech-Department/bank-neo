@@ -33,29 +33,27 @@ const SpesializeServices: React.FC = () => {
         <ServiceSection
           title="Investment Banking Solutions"
           services={[
-            "Digital checking and savings accounts",
-            "No/low-fee banking options",
-            "Peer-to-peer (P2P) transfers",
-            "Round-up savings programs",
-            "Personal budgeting and financial tools",
+            "Mergers and acquisitions advisory",
+            "Capital raising (debt and equity financing)",
+            "Underwriting and syndication services",
+            "Market research and IPO preparation",
           ]}
         />
         <ServiceSection
           title="Business & Commercial Banking"
           services={[
-            "Term loans for capital investments",
-            "Lines of credit for operational expenses",
-            "Mortgage-backed securities (MBS)",
-            "Flexible personal and business loan structures",
+            "Business checking and savings accounts",
+            "Commercial real estate financing",
+            "Equipment leasing and financing solutions",
           ]}
         />
         <ServiceSection
           title="Merchant Finance & Cash Advance"
           services={[
-            "Online payment gateway services",
-            "Cross-border payments (freelancer and SME-focused)",
-            "International remittances",
-            "ACH and wire transfer services",
+            "Advances against future credit card or sales revenue",
+            "Customizable repayment schedules",
+            "IFee structures based on daily sales",
+            "Quick approval process",
           ]}
         />
       </div>
@@ -63,19 +61,18 @@ const SpesializeServices: React.FC = () => {
         <ServiceSection
           title="Buy Now, Pay Later (BNPL) Solutions"
           services={[
-            "Mobile app banking experience",
-            "Crypto wallet integration",
-            "Open banking API solutions",
-            "Real-time account updates and alerts",
+            "Flexible repayment options for retail customers",
+            "Integration with e-commerce platforms",
+            "Low-interest installment plans",
           ]}
         />
         <ServiceSection
           title="Real Estate Financing Services"
           services={[
-            "Digital wallets for users and businesses",
-            "QR code payments",
-            "Subscription and recurring payment management",
-            "Integration with popular e-commerce platforms",
+            "Structured debt investments",
+            "Financing solutions for property developers",
+            "Mortgage real estate-backed lending products",
+            "Portfolio management of income-producing properties",
           ]}
         />
       </div>

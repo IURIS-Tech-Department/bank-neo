@@ -33,29 +33,26 @@ const InnovativeServices: React.FC = () => {
         <ServiceSection
           title="FinTech Partnerships"
           services={[
-            "Digital checking and savings accounts",
-            "No/low-fee banking options",
-            "Peer-to-peer (P2P) transfers",
-            "Round-up savings programs",
-            "Personal budgeting and financial tools",
+            "Collaboration with startups and innovation labs",
+            "Building ecosystems for digital-first solutions",
+            "API-based financial service integrations",
+   
           ]}
         />
         <ServiceSection
           title="Blockchain-Based Payment Systems"
           services={[
-            "Term loans for capital investments",
-            "Lines of credit for operational expenses",
-            "Mortgage-backed securities (MBS)",
-            "Flexible personal and business loan structures",
+            "Secure and efficient blockchain payment platforms",
+            "Crypto payment processing and digital asset services",
+            "Decentralized finance (DeFi) solutions",
           ]}
         />
         <ServiceSection
           title="Digital Asset Management"
           services={[
-            "Online payment gateway services",
-            "Cross-border payments (freelancer and SME-focused)",
-            "International remittances",
-            "ACH and wire transfer services",
+            "Custody and management of digital currencies",
+            "Investment in tokenized assets",
+            "IAdvisory on blockchain-based investments",
           ]}
         />
       </div>
@@ -64,10 +61,10 @@ const InnovativeServices: React.FC = () => {
             <ServiceSection
             title="Financial Technology Advisory"
             services={[
-                "Mobile app banking experience",
-                "Crypto wallet integration",
-                "Open banking API solutions",
-                "Real-time account updates and alerts",
+                "Building tech-driven customer experiences",
+                "Data automation and real-time reporting integration",
+                "Building tech-driven customer experiences",
+                "Leveraging AI and machine learning for financial services",
             ]}
             />
         </div>

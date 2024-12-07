@@ -8,21 +8,29 @@ const SectionDedicated: React.FC = () => {
       <div
         className="relative flex flex-col justify-center mt-20 bg-cover bg-center min-h-screen p-20"
       >
-        {/* Overlay dengan opacity gelap */}
-        <div className="absolute top-0 left-0 w-full h-full bg-gray-300"></div>
+        <div 
+          className="absolute top-0 left-0 w-full h-full bg-gray-300" 
+          style={{
+            backgroundImage: "url('img/section-dedicated.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+        </div>
         
         {/* Teks utama */}
         <div className="relative z-2">
-          <Typography variant="h2" className="font-bold text-black">
+          <Typography variant="h2" className="font-bold text-white">
             Your dedicated finance
           </Typography>
-          <Typography variant="h2" className="font-bold mb-4 text-black">
+          <Typography variant="h2" className="font-bold mb-4 text-white">
             and acounting team.
           </Typography>
-          <Typography variant="h2" className="font-medium mb-4 text-gray-500">
+          <Typography variant="h2" className="font-medium mb-4 text-gray-300">
             Earning your trust everyday.
           </Typography>
-          <Typography className="mt-4 text-gray-500 text-base">
+          <Typography className="mt-4 text-gray-400 text-base">
             BankNeo Delivers Value  to our clients by offering comprehensive accounting and strategic finance <br />
             services. <span className="font-bold">Neo</span> management reports  deliver candid and actionable insights all focused on your <br />
             business growth and success.
