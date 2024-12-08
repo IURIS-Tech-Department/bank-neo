@@ -70,7 +70,7 @@ const PrivateServices: React.FC = () => {
           services={[
             "International market investment strategies",
             "Cross-border wealth preservation",
-            "SCurrency hedging and risk management",
+            "Hedging and risk management",
             "Premium Services for Enterprises",
           ]}
         />

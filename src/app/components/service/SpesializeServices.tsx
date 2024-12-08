@@ -52,7 +52,7 @@ const SpesializeServices: React.FC = () => {
           services={[
             "Advances against future credit card or sales revenue",
             "Customizable repayment schedules",
-            "IFee structures based on daily sales",
+            "Structures based on daily sales",
             "Quick approval process",
           ]}
         />

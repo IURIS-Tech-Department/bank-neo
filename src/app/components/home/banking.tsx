@@ -22,13 +22,14 @@ const Banking: React.FC = () => {
       
       <div className="relative z-2">
         <Typography variant="h2" className="font-bold text-white">
-          Banking
+          neo
         </Typography>
-        <Typography variant="h2" className="font-bold mb-4 text-white">
+        <Typography variant="h5" className="font-medium mb-4 text-white">
+          Banking
           Outside The Matrix
         </Typography>
         <Typography className="mt-4 text-white text-base">
-          Apply in 10 minutes for business banking that transform how operate
+          Elevate Your Business with Smarter Banking
         </Typography>
         {/* edit */}
         <Button

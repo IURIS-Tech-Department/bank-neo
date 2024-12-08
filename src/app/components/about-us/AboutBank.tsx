@@ -23,7 +23,7 @@ const AboutBankNeo: React.FC = () => {
           leveraging innovative banking structures, artificial intelligence,
           and a SaaS-driven business model, BankNeo will provide streamlined
           financial services while adhering to stringent compliance standards.
-          The bank&apos;s operations will initially be based in Vietnam, offering
+          The bank&apos;s operations will initially be based in Vanuatu, offering
           neobank services and eventually expanding globally through
           partnerships, innovative fintech solutions, and robust online
           presence.

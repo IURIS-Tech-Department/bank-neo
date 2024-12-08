@@ -52,7 +52,7 @@ const InnovativeServices: React.FC = () => {
           services={[
             "Custody and management of digital currencies",
             "Investment in tokenized assets",
-            "IAdvisory on blockchain-based investments",
+            "Advisory on blockchain-based investments",
           ]}
         />
       </div>
