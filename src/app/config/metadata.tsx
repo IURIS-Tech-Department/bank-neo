@@ -8,7 +8,7 @@ export const metadata = {
         "Platform that uses human and AI consultants to help you with any consultation task quickly.",
       images: [
         {
-          url: "/android-chrome-192x192.png",
+          url: "/images/icons/icon-192x192.png",
           width: 192,
           height: 192,
           alt: "Neo",
@@ -16,8 +16,8 @@ export const metadata = {
       ],
     },
     icons: {
-      icon: "/favicon-32x32.png",
-      apple: "/apple-touch-icon.png",
+      icon: "/images/icons/icon-72x72.png",
+      apple: "/images/icons/icon-72x72.png",
     },
     manifest: "/site.webmanifest",
   };

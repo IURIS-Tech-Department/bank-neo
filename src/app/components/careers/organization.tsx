@@ -39,6 +39,26 @@ const OrganizationStructure = () => {
       ],
     },
     {
+      title: "Inhouse Legal Team",
+      roles: [
+        {
+          name: "General Counsel",
+          description:
+            "As the General Counsel, you will be leading the legal department and advising on critical legal matters.",
+        },
+        {
+          name: "Associate Attorney",
+          description:
+            "We are looking for a talented Associate Attorney to join our legal team. The role requires excellent legal research and communication skills.",
+        },
+        {
+          name: "Paralegal",
+          description:
+            "The Paralegal will assist with legal research, documentation preparation, and case management support for the legal team.",
+        },
+      ],
+    },
+    {
       title: "Department Managers",
       roles: [
         {
