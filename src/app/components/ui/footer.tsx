@@ -17,7 +17,7 @@ function Footer() {
             availability subject to change.
           </p>
           <Link
-            href="#"
+            href="/disclaimer"
             className="flex items-center gap-2 text-sm lg:text-base pt-2"
           >
             Learn More{" "}

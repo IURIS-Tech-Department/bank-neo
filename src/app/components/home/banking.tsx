@@ -21,7 +21,7 @@ const Banking: React.FC = () => {
       </div>
       
       <div className="relative z-2">
-        <Typography variant="h2" className="font-bold text-white">
+        <Typography variant="h1" className="font-bold text-white">
           neo
         </Typography>
         <Typography variant="h5" className="font-medium mb-4 text-white">
