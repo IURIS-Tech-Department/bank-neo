@@ -1,5 +1,5 @@
 import React from "react";
-import TermsConditionsPrivacy from "../components/terms/cookies";
+import Cookies from "../components/terms/cookies";
 
 const TermsPage: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const TermsPage: React.FC = () => {
           <span className="border-b-2 border-black pb-1">Cookies Policy</span>
         </h1>      
       </header>
-      <TermsConditionsPrivacy />
+      <Cookies />
     </div>
   );
 };

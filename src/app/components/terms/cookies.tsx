@@ -1,6 +1,6 @@
 import React from "react";
 
-const TermsConditionsPrivacy: React.FC = () => {
+const Cookies: React.FC = () => {
   return (
     <div className="bg-gray-100 py-10 px-4">
       <div className="max-w-7xl mx-auto space-y-10">
@@ -36,4 +36,4 @@ const TermsConditionsPrivacy: React.FC = () => {
   );
 };
 
-export default TermsConditionsPrivacy;
+export default Cookies;

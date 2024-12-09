@@ -7,7 +7,7 @@ const Disclaimer: React.FC = () => {
         <div className="border border-gray-300 p-6 rounded-lg bg-white">
           <p className="text-black text-lg mb-4">
             <strong>1. General Information</strong><br />
-            The information provided on the website is "as is" and "as available." BankNeo does not guarantee the completeness, accuracy, or reliability of the information.
+            The information provided on the website is &quot;as is&quot; and &quot;as available.&quot; BankNeo does not guarantee the completeness, accuracy, or reliability of the information.
           </p>
           <p className="text-black text-lg mb-4">
             <strong>2. No Financial Advice</strong><br />
