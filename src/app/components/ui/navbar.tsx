@@ -60,6 +60,7 @@ function Navbar() {
     { name: "home", path: "/" },
     { name: "services", path: "/services" },
     { name: "support", path: "/support" },
+    { name: "careers", path: "/careers" },
     { name: "about us", path: "/about-us" },
   ];
 

@@ -213,14 +213,17 @@ function Footer() {
           <p className="text-xl lg:text-2xl mb-4">
             <b>Terms & Conditions</b>
           </p>
-          <Link href="/" className="text-lg">
+          <Link href="/disclaimer" className="text-lg">
             Disclaimer
           </Link>
-          <Link href="/services" className="text-lg">
+          <Link href="/privacy" className="text-lg">
             Privacy Policy
           </Link>
-          <Link href="/about-us" className="text-lg">
+          <Link href="/cookies" className="text-lg">
             Cookies Policy
+          </Link>
+          <Link href="/terms-conditions" className="text-lg">
+            Terms & Conditions
           </Link>
         </div>
       </div>
