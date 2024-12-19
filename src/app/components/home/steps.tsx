@@ -17,11 +17,11 @@ const StepsComponent: React.FC = () => {
             <h3 className="text-4xl font-bold text-gray-800 mb-4">02</h3>
             <h4 className="text-lg font-medium mb-2 text-gray-800">Create an account</h4>
             <p className="text-sm text-gray-600 mb-6">Playstore & App store</p>
-            <div className="w-full h-[500px] mx-auto bg-gray-300 flex items-center justify-center rounded-lg overflow-hidden">
+            <div className="w-full h-auto mx-auto bg-gray-300 flex items-center justify-center rounded-lg overflow-hidden">
               <img
-                src="/placeholder-image.png"
+                src="/create.jpg"
                 alt="Download app"
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>
@@ -32,11 +32,11 @@ const StepsComponent: React.FC = () => {
             <h3 className="text-4xl font-bold text-gray-800 mb-4">01</h3>
             <h4 className="text-lg font-medium mb-2 text-gray-800">Download app</h4>
             <p className="text-sm text-gray-600 mb-6">Playstore & App store</p>
-            <div className="w-full h-[500px] mx-auto bg-gray-300 flex items-center justify-center rounded-lg overflow-hidden">
+            <div className="w-full h-auto mx-auto bg-gray-300 flex items-center justify-center rounded-lg overflow-hidden">
               <img
-                src="/placeholder-image.png"
+                src="/download-app.jpg"
                 alt="Create an account"
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>
@@ -44,11 +44,11 @@ const StepsComponent: React.FC = () => {
             <h3 className="text-4xl font-bold text-gray-800 mb-4">03</h3>
             <h4 className="text-lg font-medium mb-2 text-gray-800">Start controlling your finance</h4>
             <p className="text-sm text-gray-600 mb-6">Playstore & App store</p>
-            <div className="w-full h-[500px] mx-auto bg-gray-300 flex items-center justify-center rounded-lg overflow-hidden">
+            <div className="w-full h-auto mx-auto bg-gray-300 flex items-center justify-center rounded-lg overflow-hidden">
               <img
-                src="/placeholder-image.png"
+                src="/control.jpg"
                 alt="Start controlling your finance"
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>

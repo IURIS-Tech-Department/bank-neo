@@ -188,13 +188,12 @@ function Footer() {
             <b>Company</b>
           </p>
           <Link
-            target="_blank"
             href="/about-us"
             className="text-lg"
           >
             About Us
           </Link>
-          <Link href="/carrers" className="text-lg">
+          <Link href="/careers" className="text-lg">
             Careers
           </Link>
         </div>
