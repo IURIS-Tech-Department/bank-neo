@@ -11,6 +11,7 @@ export default function Services() {
             backgroundImage: "url('/img/services.jpg')",
           }}
         />
+        <div className="absolute inset-0 bg-black opacity-65"></div>
         <div className="relative flex flex-col justify-center h-full text-white px-20">
           <h1 className="text-3xl text-white md:text-5xl font-bold tracking-tight leading-snug">
             Business Banking Support

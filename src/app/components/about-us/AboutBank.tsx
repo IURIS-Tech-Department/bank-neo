@@ -5,7 +5,7 @@ const AboutBankNeo: React.FC = () => {
     <section
       className="relative py-16 text-white bg-cover bg-center"
       style={{
-        backgroundImage: "url('/img/about.jpg')",
+        backgroundImage: "url('/img/about-us.jpg')",
       }}
     >
       {/* Overlay */}
