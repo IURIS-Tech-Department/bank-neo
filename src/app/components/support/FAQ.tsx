@@ -1,35 +1,122 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
-const FAQ: React.FC = () => {
+const FAQSection: React.FC = () => {
+  const [openQuestion, setOpenQuestion] = useState<string | null>(null);
+
+  const toggleQuestion = (questionId: string) => {
+    setOpenQuestion(openQuestion === questionId ? null : questionId);
+  };
+
   return (
-    <section className="py-16">
-      <div className="max-w-6xl mx-auto px-6 md:px-12">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-black">
-          Frequently Asked Questions
-        </h2>
-        <div className="space-y-6">
-          <div>
-            <h3 className="text-xl font-semibold">How do I reset my password?</h3>
-            <p className="text-black">
-              To reset your password, go to the login page and click on Forgot Password. You will be guided through the process to reset your password via email.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold">What payment methods do you accept?</h3>
-            <p className="text-black">
-              We accept all major credit cards, PayPal, and bank transfers for payments. Please contact us if you have any specific payment questions.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold">How can I contact customer support?</h3>
-            <p className="text-black">
-              You can contact customer support through the contact form below, or reach us at support@yourcompany.com for immediate assistance.
-            </p>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="w-full min-h-screen grid grid-cols-1 md:grid-cols-2 gap-8 bg-white p-20 rounded-lg shadow-lg">
+        {/* Column 1: Title and Subtitle */}
+        <div className="flex flex-col">
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">Questions</h2>
+          <p className="text-gray-600 text-lg">
+          Find answers to commonly asked questions about our cross-border payment solutions.
+          </p>
+        </div>
+
+        <div>
+          <div className="space-y-4">
+            <div className="border-2 border-black p-5">
+              <button
+                onClick={() => toggleQuestion("question1")}
+                className="w-full flex justify-between items-center text-left text-sm font-medium text-gray-600"
+              >
+                <span>How do I sign up?</span>
+                {openQuestion === "question1" ? (
+                  <FaChevronUp className="text-gray-500 transition-transform duration-300" />
+                ) : (
+                  <FaChevronDown className="text-gray-500 transition-transform duration-300" />
+                )}
+              </button>
+              {openQuestion === "question1" && (
+                <div className="mt-2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm bg-gray-50 transition-opacity duration-300 opacity-100">
+                  We offer a 30-day return policy.
+                </div>
+              )}
+            </div>
+            <div className="border-2 border-black p-5">
+              <button
+                onClick={() => toggleQuestion("question2")}
+                className="w-full flex justify-between items-center text-left text-sm font-medium text-gray-600"
+              >
+                <span>What currencies do you support?</span>
+                {openQuestion === "question2" ? (
+                  <FaChevronUp className="text-gray-500 transition-transform duration-300" />
+                ) : (
+                  <FaChevronDown className="text-gray-500 transition-transform duration-300" />
+                )}
+              </button>
+              {openQuestion === "question2" && (
+                <div className="mt-2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm bg-gray-50 transition-opacity duration-300 opacity-100">
+                  Yes, we ship to most countries worldwide.
+                </div>
+              )}
+            </div>
+            <div className="border-2 border-black p-5">
+              <button
+                onClick={() => toggleQuestion("question3")}
+                className="w-full flex justify-between items-center text-left text-sm font-medium text-gray-600"
+              >
+                <span>How secure is my money?</span>
+                {openQuestion === "question3" ? (
+                  <FaChevronUp className="text-gray-500 transition-transform duration-300" />
+                ) : (
+                  <FaChevronDown className="text-gray-500 transition-transform duration-300" />
+                )}
+              </button>
+              {openQuestion === "question3" && (
+                <div className="mt-2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm bg-gray-50 transition-opacity duration-300 opacity-100">
+                  You can email us at support@example.com.
+                </div>
+              )}
+            </div>
+            <div className="border-2 border-black p-5">
+              <button
+                onClick={() => toggleQuestion("question4")}
+                className="w-full flex justify-between items-center text-left text-sm font-medium text-gray-600"
+              >
+                <span>Can I use Capital Guard cards internationally?</span>
+                {openQuestion === "question3" ? (
+                  <FaChevronUp className="text-gray-500 transition-transform duration-300" />
+                ) : (
+                  <FaChevronDown className="text-gray-500 transition-transform duration-300" />
+                )}
+              </button>
+              {openQuestion === "question4" && (
+                <div className="mt-2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm bg-gray-50 transition-opacity duration-300 opacity-100">
+                  You can email us at support@example.com.
+                </div>
+              )}
+            </div>
+            <div className="border-2 border-black p-5">
+              <button
+                onClick={() => toggleQuestion("question5")}
+                className="w-full flex justify-between items-center text-left text-sm font-medium text-gray-600"
+              >
+                <span>How can I contact customer support?</span>
+                {openQuestion === "question5" ? (
+                  <FaChevronUp className="text-gray-500 transition-transform duration-300" />
+                ) : (
+                  <FaChevronDown className="text-gray-500 transition-transform duration-300" />
+                )}
+              </button>
+              {openQuestion === "question5" && (
+                <div className="mt-2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm bg-gray-50 transition-opacity duration-300 opacity-100">
+                  You can email us at support@example.com.
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default FAQ;
+export default FAQSection;

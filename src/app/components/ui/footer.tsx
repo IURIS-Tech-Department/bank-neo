@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 // import sourceSansPro from "./sourceSansPro";
 
 function Footer() {
@@ -44,9 +45,14 @@ function Footer() {
           </div>
         </div> */}
         <div className="flex flex-col gap-4">
-          <div className="w-14 h-10 flex items-center justify-center text-center text-2xl border-l-4 border-black">
+          <div className="">
             <div className="ml-5 font-bold">
-              Neo
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={120} 
+                height={40} 
+              />
             </div>
           </div>
           {/* <div className="flex gap-4 text-2xl">

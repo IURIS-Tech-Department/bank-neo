@@ -1,6 +1,8 @@
 import Banking from "./components/home/banking";
+import FeatureCardGrid from "./components/home/featurecard";
 // import MainHome from "./components/home/main";
 import SectionDedicated from "./components/home/section-dedicated";
+import Steps from "./components/home/steps";
 import Tabs from "./components/home/tabs";
 // import CoreBankingServices from "./components/service/CoreBankingServices";
 // import InnovativeServices from "./components/service/InnovativeServices";
@@ -15,8 +17,10 @@ export default function Home() {
     <section className="bg-gray-200">
       {/* <MainHome /> */}
       <Banking />
+      <FeatureCardGrid />
       <SectionService />
       <SectionDedicated />
+      <Steps />
       <Tabs />
       {/* <CoreBankingServices />
       <SpesializeServices />

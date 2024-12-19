@@ -41,7 +41,7 @@ const DekstopVersion = ({ links, pathname }: NavbarType) => {
       <Link
         href="/"
         className="text-black p-3 rounded-xl hover:brightness-90 transition-all font-h5 flex items-center justify-center h-12"
-        >
+      >
         Open Account
       </Link>
     </>
@@ -91,7 +91,7 @@ function Navbar() {
       }
     : {
         boxShadow: "2px 0px 5px rgb(0 0 0 / 0.4)",
-        backgroundColor: "rgb(255 255 255, 0.5)", 
+        backgroundColor: "rgb(255 255 255, 0.5)",
       };
 
   return (
@@ -106,10 +106,15 @@ function Navbar() {
         }`}
       >
         <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto">
-          <div className="w-30 h-10 flex items-center justify-center text-center text-2xl border-l-4 border-black">
-           <div className="p-3 font-bold">
-              Neo
-           </div>
+          <div className="w-30 h-10 flex items-center justify-center text-center text-2xl">
+            <div className="p-3 font-bold">
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={120} 
+                height={40} 
+              />
+            </div>
           </div>
           {isMounted &&
             (isLargeScreen ? (
