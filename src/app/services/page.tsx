@@ -12,10 +12,10 @@ export default function Services() {
           }}
         />
         <div className="relative flex flex-col justify-center h-full text-white px-20">
-          <h1 className="text-3xl text-black md:text-5xl font-bold tracking-tight leading-snug">
+          <h1 className="text-3xl text-white md:text-5xl font-bold tracking-tight leading-snug">
             Business Banking Support
           </h1>
-          <p className="mt-4 text-sm md:text-lg text-black max-w-3xl">
+          <p className="mt-4 text-sm md:text-lg text-white max-w-3xl">
           Grow your business with our suite of financial tools designed specifically for entrepreneurs and companies. From business accounts to payroll services, we offer solutions that streamline your operations and help you focus on what matters most.
           </p>
         </div>
