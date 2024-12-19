@@ -8,7 +8,7 @@ export default function Services() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/img/bg-service.jpg')",
+            backgroundImage: "url('/img/services.jpg')",
           }}
         />
         <div className="relative flex flex-col justify-center h-full text-white px-20">
