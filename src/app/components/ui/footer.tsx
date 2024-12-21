@@ -44,14 +44,14 @@ function Footer() {
             </button>
           </div>
         </div> */}
-        <div className="flex flex-col gap-4">
-          <div className="">
-            <div className="ml-5 font-bold">
+        <div className="flex flex-col">
+          <div className="w-150 h-32 flex items-center">
+            <div className="">
               <Image
-                src="/logo.png"
+                src="/logo-white.png"
                 alt="Logo"
-                width={120} 
-                height={40} 
+                width={300} 
+                height={100} 
               />
             </div>
           </div>

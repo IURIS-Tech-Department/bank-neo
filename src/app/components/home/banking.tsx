@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Typography, Button } from "@mui/material";
 
 const Banking: React.FC = () => {
@@ -21,9 +22,16 @@ const Banking: React.FC = () => {
 
       {/* Content */}
       <div className="relative z-10 ml-20">
-        <Typography variant="h1" className="font-bold italic text-white">
-          neo
-        </Typography>
+        <div className="w-150 h-32 flex items-center mr-20">
+          <div className="">
+            <Image
+              src="/logo-black.png"
+              alt="Logo"
+              width={300} 
+              height={100} 
+            />
+          </div>
+        </div>
         <Typography variant="h5" className="font-medium mb-4 text-white">
           Banking
           Outside The Matrix
