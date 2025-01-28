@@ -48,7 +48,7 @@ function Footer() {
           <div className="w-150 h-32 flex items-center">
             <div className="">
               <Image
-                src="/logo-white.png"
+                src="/logo-black-new.png"
                 alt="Logo"
                 width={300} 
                 height={100} 

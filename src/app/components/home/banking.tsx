@@ -25,7 +25,7 @@ const Banking: React.FC = () => {
         <div className="w-150 h-32 flex items-center mr-20">
           <div className="">
             <Image
-              src="/logo-black.png"
+              src="/logo-white-new.png"
               alt="Logo"
               width={300} 
               height={100} 

@@ -109,7 +109,7 @@ function Navbar() {
           <div className="w-30 h-10 flex items-center justify-center text-center text-2xl">
             <div className="font-bold">
               <Image
-                src="/logo-white.png"
+                src="/logo-black-new.png"
                 alt="Logo"
                 width={150} 
                 height={40} 
